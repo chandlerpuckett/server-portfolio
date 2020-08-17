@@ -1,0 +1,11 @@
+'use strict';
+
+$(document).ready(function(){
+  $('.carousel').slick({
+    arrows: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  });
+});

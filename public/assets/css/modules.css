@@ -476,8 +476,8 @@ button,
   }
 
     #main > section.dark {
-      color: #ddd;
-      color: rgba(255, 255, 255, 0.75);
+      color: rgb(0, 0, 0);
+      color: rgba(0, 0, 0, 0.75);
     }
 
       #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -485,7 +485,8 @@ button,
       }
 
       #main > section.dark strong {
-        color: #fff;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
         border-color: inherit;
       }
 
@@ -504,9 +505,14 @@ button,
       background-position: center center;
     }
 
+    /* ============================================================================== */
+    /* heading background image */
     #main > section.one {
-      background-color: #81918E;
-      background-image: url("../../images/banner.jpg");
+      margin-top: -100px;
+    }
+
+    .custom {
+      max-width: 100%;
     }
 
     #main > section.two {
