@@ -1,5 +1,3 @@
-'use strict';
-
 $(document).ready(function(){
   $('.carousel').slick({
     arrows: false,
@@ -9,4 +7,4 @@ $(document).ready(function(){
     autoplaySpeed: 3000,
   });
 });
-
+s
